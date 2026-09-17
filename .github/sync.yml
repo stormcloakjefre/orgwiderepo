@@ -1,10 +1,10 @@
 group:
   repos: |
-    stormcloakjefre/21bit
+    stormcloakjefre/21Bit
     stormcloakjefre/befinance
-    stormcloakjefre/dashcom
+    stormcloakjefre/DashCom
     stormcloakjefre/alturaadvisory
-    stormcloakjefre/bibleapp
+    stormcloakjefre/Bibleapp
   files:
     - source: CLAUDE.md
       dest: CLAUDE.md
