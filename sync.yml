@@ -2,5 +2,8 @@ group: "Sync Claude Config"
 prs: false
 source: CLAUDE.md
 destinations:
-  - "your-username/repo-name-1"
-  - "your-username/repo-name-2"
+  - "stormcloakjefre/21bit"
+  - "stormcloakjefre/befinance"
+  - "stormcloakjefre/dashcom"
+  - "stormcloakjefre/alturaadvisory"
+  - "stormcloakjefre/bibleapp"
