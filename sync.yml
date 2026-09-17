@@ -1,0 +1,6 @@
+group: "Sync Claude Config"
+prs: false
+source: CLAUDE.md
+destinations:
+  - "your-username/repo-name-1"
+  - "your-username/repo-name-2"
