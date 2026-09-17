@@ -1,0 +1,19 @@
+name: Sync CLAUDE.md to Repos
+
+on:
+  push:
+    branches:
+      - main # Triggers whenever you update your master config
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run File Sync
+        uses: BetaHuhn/repo-file-sync-action@v3
+        with:
+          gh_token: ${{ secrets.MY_GITHUB_PAT }}
+          config_file: .github/sync.yml
