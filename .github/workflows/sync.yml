@@ -15,6 +15,7 @@ jobs:
       - name: Run File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          config_file: .github/sync.yml
+          CONFIG_PATH: .github/sync.yml
+          IS_FINE_GRAINED: true
         env:
           GH_PAT: ${{ secrets.MY_GITHUB_PAT }}
