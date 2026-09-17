@@ -3,7 +3,7 @@ name: Sync CLAUDE.md to Repos
 on:
   push:
     branches:
-      - main # Triggers whenever you update your master config
+      - main
 
 jobs:
   update-repos:
@@ -15,5 +15,6 @@ jobs:
       - name: Run File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          gh_token: ${{ secrets.MY_GITHUB_PAT }}
           config_file: .github/sync.yml
+        env:
+          GH_PAT: ${{ secrets.MY_GITHUB_PAT }}
