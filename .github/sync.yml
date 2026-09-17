@@ -1,9 +1,12 @@
-group: "Sync Claude Config"
-prs: false
-source: CLAUDE.md
-destinations:
-  - "stormcloakjefre/21bit"
-  - "stormcloakjefre/befinance"
-  - "stormcloakjefre/dashcom"
-  - "stormcloakjefre/alturaadvisory"
-  - "stormcloakjefre/bibleapp"
+group:
+  repos: |
+    stormcloakjefre/21bit
+    stormcloakjefre/befinance
+    stormcloakjefre/dashcom
+    stormcloakjefre/alturaadvisory
+    stormcloakjefre/bibleapp
+  files:
+    - source: CLAUDE.md
+      dest: CLAUDE.md
+    - source: .claude/skills
+      dest: .claude/skills
