@@ -1,0 +1,10 @@
+# .github/sync.yml
+group: "Sync Claude Config"
+prs: false # Set to true if you want it to open a Pull Request instead of direct committing
+source: CLAUDE.md # The file in this repository you want to sync
+destinations:
+  - "stormcloakjefre/21bit"
+  - "stormcloakjefre/befinance"
+  - "stormcloakjefre/dashcom"
+  - "stormcloakjefre/alturaadvisory"
+  - "stormcloakjefre/bibleapp"
