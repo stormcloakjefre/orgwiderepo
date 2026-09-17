@@ -17,5 +17,6 @@ jobs:
         with:
           CONFIG_PATH: .github/sync.yml
           IS_FINE_GRAINED: true
+          SKIP_PR: true
         env:
           GH_PAT: ${{ secrets.MY_GITHUB_PAT }}
