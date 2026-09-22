@@ -5,6 +5,7 @@ group:
     stormcloakjefre/DashCom
     stormcloakjefre/alturaadvisory
     stormcloakjefre/Bibleapp
+    stormcloakjefre/businessplus
   files:
     - source: CLAUDE.md
       dest: CLAUDE.md
